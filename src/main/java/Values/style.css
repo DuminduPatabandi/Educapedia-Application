@@ -1,0 +1,219 @@
+.search-box {
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:100;
+}
+
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.search-button {
+    -fx-background-color:#828282;
+        -fx-background-radius:30;
+}
+
+.hover-button {
+    -fx-background-color:#828282;
+            -fx-background-radius:30;
+}
+
+.hover-button:hover {
+    -fx-background-color:#000000;
+            -fx-background-radius:30;
+            -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 15.0 , 0.0 , 0.0 , 15.0);
+}
+
+
+
+
+.right-bar {
+    -fx-background-color:#D3D3D3;
+}
+
+.shadow {
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 , 10.0);
+}
+
+.chosen-fruit-card {
+    -fx-background-color:#F16C31;
+    -fx-background-radius:30;
+}
+
+.comboBox {
+    -fx-background-color:rgba(255,255,255,0.3);
+    -fx-background-radius:30;
+}
+
+.add-btn {
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:100;
+}
+
+.free-delivery-card {
+    -fx-background-color:#D3D3D3;
+    -fx-background-radius:30;
+}
+
+.shop-online-card {
+    -fx-background-color:#BAEAC3;
+    -fx-background-radius:30;
+}
+
+.fruit-item {
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:30;
+}
+
+.delete-btn {
+    -fx-background-color:#C44040;
+    -fx-background-radius:100;
+}
+
+.register-button {
+    -fx-background-color:#828282;
+            -fx-background-radius:30;
+}
+
+.register-button:hover {
+    -fx-background-color:#292826;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+            -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 15.0 , 0.0 , 0.0 , 15.0);
+}
+
+.closing-button {
+    -fx-background-color:#828282;
+            -fx-background-radius:30;
+}
+
+.closing-button:hover {
+    -fx-background-color:#D71B3B;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+            -fx-shadow
+}
+
+.music-button {
+    -fx-background-color:#BAEAC3;
+            -fx-background-radius:30;
+}
+
+.music-button:hover {
+    -fx-background-color:#2A9D8F;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.2 ;
+            -fx-scale-x: 1.2 ;
+            -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 15.0 , 0.0 , 0.0 , 15.0);
+}
+
+.subject-button {
+    -fx-background-color:#828282;
+            -fx-background-radius:30;
+}
+
+.subject-button:hover {
+    -fx-background-color:#000000;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+}
+
+.close-button {
+    -fx-background-color:#D3D3D3;
+            -fx-background-radius:30;
+}
+
+.close-button:hover {
+    -fx-background-color:#C44040;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+
+}
+
+.upload-button {
+    -fx-background-color:#C44040;
+    -fx-background-radius:100;
+}
+
+.upload-button:hover {
+    -fx-background-color:#C44040;
+    -fx-background-radius:100;
+    -fx-scale-y: 1.1 ;
+    -fx-scale-x: 1.1 ;
+}
+
+.accountinfo-button {
+    -fx-background-color:#2A9D8F;
+    -fx-text-fill: #D3D3D3;
+    -fx-background-radius:30;
+}
+
+.accountinfo-button:hover {
+    -fx-background-color:#000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius:30;
+    -fx-scale-y: 1.1 ;
+    -fx-scale-x: 1.1 ;
+}
+
+.accountinfo-button {
+    -fx-background-color:#F16C31;
+    -fx-text-fill: #D3D3D3;
+    -fx-background-radius:30;
+}
+
+.accountinfo-button:hover {
+    -fx-background-color:#000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius:30;
+    -fx-scale-y: 1.1 ;
+    -fx-scale-x: 1.1 ;
+}
+
+.studyM-button {
+    -fx-background-color:#2A9D8F;
+    -fx-background-radius:30;
+}
+
+.studyM-button:hover {
+    -fx-background-color:#000000;
+    -fx-background-radius:30;
+    -fx-scale-y: 1.1 ;
+    -fx-scale-x: 1.1 ;
+}
+
+.Back-button {
+    -fx-background-color:#F16C31;
+    -fx-background-radius:30;
+}
+
+.Back-button:hover {
+    -fx-background-color:#F16C31;
+    -fx-background-radius:30;
+    -fx-scale-y: 1.1 ;
+    -fx-scale-x: 1.1 ;
+}
+
+.music0-button {
+    -fx-background-color:#BAEAC3;
+            -fx-background-radius:30;
+}
+
+.music0-button:hover {
+    -fx-background-color:#2A9D8F;
+            -fx-background-radius:30;
+            -fx-text-fill: #FFFFFF;
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+}
+
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="710.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.MenuController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="659.0" layoutX="26.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="92.0">
+         <image>
+            <Image url="@year.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="secondGoButton" layoutX="347.0" layoutY="120.0" mnemonicParsing="false" onAction="#setSecondGoButtonOnAction" prefWidth="52.0" styleClass="subject-button" stylesheets="@../../../java/Values/style.css" text="Go" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="firstGoButton" layoutX="42.0" layoutY="500.0" mnemonicParsing="false" onAction="#setFirstGoButtonOnAction" prefWidth="52.0" styleClass="subject-button" stylesheets="@../../../java/Values/style.css" text="Go" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="thirdGoButton" layoutX="472.0" layoutY="520.0" mnemonicParsing="false" onAction="#setThirdGoButtonOnAction" prefWidth="52.0" styleClass="subject-button" stylesheets="@../../../java/Values/style.css" text="Go" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="fourthGoButton" layoutX="633.0" layoutY="432.0" mnemonicParsing="false" onAction="#setFourthGoButtonOnAction" prefWidth="52.0" styleClass="subject-button" stylesheets="@../../../java/Values/style.css" text="Go" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="659.0" layoutY="20.0" mnemonicParsing="false" onAction="#setCancelButtonAction" prefHeight="37.0" prefWidth="38.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="X" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="accountinfoButton" layoutX="581.0" layoutY="73.0" mnemonicParsing="false" onAction="#setAccountinfoButtonOnAction" prefHeight="37.0" prefWidth="119.0" styleClass="accountinfo-button" stylesheets="@../../../java/Values/style.css" text="Account info" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="StudyMusicButton" layoutX="581.0" layoutY="119.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" styleClass="studyM-button" stylesheets="@../../../java/Values/style.css" text="Study music" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="202.0" layoutY="28.0" prefHeight="30.0" prefWidth="307.0" text="Select year you need to look." textFill="WHITE">
+         <font>
+            <Font name="Courier New" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="19.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOGO.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="goOurSiteButton" layoutX="573.0" layoutY="557.0" mnemonicParsing="false" onAction="#setGoOurSiteButtonOnAction" prefHeight="37.0" prefWidth="119.0" stylesheets="@../../../java/Values/style.css" text="Our Website" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <styleClass>
+            <String fx:value="upload-button" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>
