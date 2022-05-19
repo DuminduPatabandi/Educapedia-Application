@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="680.0" prefWidth="800.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.secondyearController">
+    <children>
+        <ImageView fitHeight="955.8" fitWidth="1200.0" layoutX="-222.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-89.0" AnchorPane.leftAnchor="-222.0" AnchorPane.rightAnchor="-178.0" AnchorPane.topAnchor="-31.0">
+            <image>
+                <Image url="@Secondyear.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="amatButton" layoutX="458.0" layoutY="173.0" mnemonicParsing="false" onAction="#setAmatButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="AMAT">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="pmatButton" layoutX="458.0" layoutY="216.0" mnemonicParsing="false" onAction="#setPmatButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="PMAT">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="coscButton" layoutX="458.0" layoutY="262.0" mnemonicParsing="false" onAction="#setCoscButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="COSC">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="costButton" layoutX="458.0" layoutY="305.0" mnemonicParsing="false" onAction="#setCostButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="COST">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="physButton" layoutX="458.0" layoutY="349.0" mnemonicParsing="false" onAction="#setPhysButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="PHYS">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="chemButton" layoutX="458.0" layoutY="392.0" mnemonicParsing="false" onAction="#setChemButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="CHEM">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="elecButton" layoutX="458.0" layoutY="438.0" mnemonicParsing="false" onAction="#setElecButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="ELEC">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="statButton" layoutX="458.0" layoutY="481.0" mnemonicParsing="false" onAction="#setStatButtonOnAction" prefHeight="26.0" prefWidth="202.0" stylesheets="@../../../java/Values/style.css" text="STAT">
+            <styleClass>
+                <String fx:value="subject-button" />
+                <String fx:value="shadow" />
+            </styleClass>
+        </Button>
+        <Button fx:id="cancelButton" layoutX="683.0" layoutY="124.0" mnemonicParsing="false" onAction="#setCancelButtonAction" prefHeight="26.0" prefWidth="28.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="X" />
+        <Button fx:id="backButton" layoutX="421.0" layoutY="548.0" mnemonicParsing="false" onAction="#setBackButtonOnAction" prefHeight="26.0" prefWidth="74.0" styleClass="music-button" stylesheets="@../../../java/Values/style.css" text="Back" />
+      <Button fx:id="uploadButton" layoutX="421.0" layoutY="124.0" mnemonicParsing="false" onAction="#setUploadButtonOnAction" prefHeight="26.0" prefWidth="74.0" styleClass="upload-button" stylesheets="@../../../java/Values/style.css" text="Upload" textFill="WHITE" />
+    </children>
+</AnchorPane>

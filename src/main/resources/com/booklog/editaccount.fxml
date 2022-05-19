@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="368.0" prefWidth="366.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.editController">
+   <children>
+      <Pane layoutX="-1.0" layoutY="46.0" prefHeight="91.0" prefWidth="334.0" stylesheets="@../../../java/Values/style.css">
+         <children>
+            <TextField fx:id="usernameText" alignment="CENTER" layoutX="30.0" layoutY="17.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your existing username" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <TextField fx:id="newNameText" alignment="CENTER" layoutX="30.0" layoutY="49.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your new username" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <Button fx:id="changeNameButton" layoutX="263.0" layoutY="33.0" mnemonicParsing="false" onAction="#changeNameButton" prefHeight="26.0" prefWidth="55.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="change" textFill="#6e6e6e" />
+         </children>
+         <styleClass>
+            <String fx:value="search-button" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Pane>
+      <Button fx:id="backButton" layoutX="19.0" layoutY="331.0" mnemonicParsing="false" onAction="#setBackButtonOnAction" prefHeight="26.0" prefWidth="66.0" styleClass="Back-button" stylesheets="@../../../java/Values/style.css" text="Back" textFill="WHITE" />
+      <Pane layoutX="-1.0" layoutY="141.0" prefHeight="91.0" prefWidth="334.0" stylesheets="@../../../java/Values/style.css">
+         <children>
+            <TextField fx:id="passwordText" alignment="CENTER" layoutX="30.0" layoutY="17.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your existing password" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <TextField fx:id="newPassword" alignment="CENTER" layoutX="30.0" layoutY="49.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your new password" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <Button fx:id="changePwButton" layoutX="263.0" layoutY="33.0" mnemonicParsing="false" onAction="#changePwButton" prefHeight="26.0" prefWidth="55.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="change" textFill="#6e6e6e" />
+         </children>
+         <styleClass>
+            <String fx:value="search-button" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Pane>
+      <Pane layoutX="-1.0" layoutY="236.0" prefHeight="91.0" prefWidth="334.0" stylesheets="@../../../java/Values/style.css">
+         <children>
+            <TextField fx:id="telText" alignment="CENTER" layoutX="30.0" layoutY="17.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your existing contact no:" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <TextField fx:id="newTelText" alignment="CENTER" layoutX="30.0" layoutY="49.0" prefHeight="26.0" prefWidth="224.0" promptText="Type your new contact no:" styleClass="search-box" stylesheets="@../../../java/Values/style.css" />
+            <Button fx:id="changeTelButton" layoutX="263.0" layoutY="33.0" mnemonicParsing="false" onAction="#changeTelButton" prefHeight="26.0" prefWidth="55.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="change" textFill="#6e6e6e" />
+         </children>
+         <styleClass>
+            <String fx:value="search-button" />
+            <String fx:value="shadow" />
+         </styleClass>
+      </Pane>
+      <ImageView fx:id="nameCheck" fitHeight="26.0" fitWidth="28.0" layoutX="337.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="passwordCheck" fitHeight="26.0" fitWidth="28.0" layoutX="337.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="contactCheck" fitHeight="26.0" fitWidth="28.0" layoutX="337.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="displayHeader" alignment="CENTER" layoutX="61.0" layoutY="21.0" prefHeight="18.0" prefWidth="210.0" textFill="#c4dcca" />
+   </children>
+</AnchorPane>

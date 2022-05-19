@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="600.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.musicController">
+   <children>
+      <Button fx:id="relaxingButton" layoutX="40.0" layoutY="39.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="snowingButton" layoutX="304.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="rainButton" layoutX="1.0" layoutY="204.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+      <Button fx:id="sleepButton" layoutX="301.0" layoutY="204.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="4.0" />
+      <ImageView fitHeight="195.0" fitWidth="295.0" layoutX="302.0666381835937" layoutY="204.40000000000003" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.5999999999999659" AnchorPane.rightAnchor="5.000042724609443">
+         <image>
+            <Image url="@sleeping.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@relaxing.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="508.0" layoutY="-66.0" prefHeight="58.0" prefWidth="92.0" />
+   </children>
+</AnchorPane>
