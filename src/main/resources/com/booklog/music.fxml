@@ -4,23 +4,51 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 
-<AnchorPane prefHeight="402.0" prefWidth="600.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.musicController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="704.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.booklog.musicController">
    <children>
-      <Button fx:id="relaxingButton" layoutX="40.0" layoutY="39.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
-      <Button fx:id="snowingButton" layoutX="304.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="0.0" />
-      <Button fx:id="rainButton" layoutX="1.0" layoutY="204.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
-      <Button fx:id="sleepButton" layoutX="301.0" layoutY="204.0" mnemonicParsing="false" prefHeight="195.0" prefWidth="291.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="4.0" />
-      <ImageView fitHeight="195.0" fitWidth="295.0" layoutX="302.0666381835937" layoutY="204.40000000000003" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.5999999999999659" AnchorPane.rightAnchor="5.000042724609443">
-         <image>
-            <Image url="@sleeping.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="195.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <image>
-            <Image url="@relaxing.png" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutX="508.0" layoutY="-66.0" prefHeight="58.0" prefWidth="92.0" />
+      <Pane layoutX="39.0" layoutY="56.0" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@snowing.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="snowButton" mnemonicParsing="false" onAction="#setSnowButtonOnAction" prefHeight="200.0" prefWidth="300.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="352.0" layoutY="56.0" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="-2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@relaxing.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="relaxButton" layoutX="-4.0" layoutY="2.0" mnemonicParsing="false" onAction="#setRelaxButtonOnAction" prefHeight="200.0" prefWidth="300.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="39.0" layoutY="267.0" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@raining.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="rainButton" mnemonicParsing="false" onAction="#setRainButtonOnAction" prefHeight="200.0" prefWidth="300.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="352.0" layoutY="267.0" prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sleeping.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="sleepButton" mnemonicParsing="false" onAction="#setSleepButtonOnAction" prefHeight="200.0" prefWidth="300.0" styleClass="transparent" stylesheets="@../../../java/Values/style.css" />
+         </children>
+      </Pane>
+      <Button fx:id="cancelButton" layoutX="622.0" layoutY="25.0" mnemonicParsing="false" onAction="#setCancelButtonAction" prefHeight="26.0" prefWidth="27.0" styleClass="close-button" stylesheets="@../../../java/Values/style.css" text="X" textFill="WHITE" />
+      <Button fx:id="backButton" layoutX="47.0" layoutY="473.0" mnemonicParsing="false" onAction="#setBackButtonOnAction" prefHeight="26.0" prefWidth="62.0" styleClass="Back-button" stylesheets="@../../../java/Values/style.css" text="Back" textFill="WHITE" />
    </children>
 </AnchorPane>

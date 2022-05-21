@@ -45,7 +45,7 @@
             <Font size="16.0" />
          </font>
       </Button>
-      <Button fx:id="StudyMusicButton" layoutX="581.0" layoutY="119.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="119.0" styleClass="studyM-button" stylesheets="@../../../java/Values/style.css" text="Study music" textFill="WHITE">
+      <Button fx:id="StudyMusicButton" layoutX="581.0" layoutY="119.0" mnemonicParsing="false" onAction="#setMusicButtonOnAction" prefHeight="37.0" prefWidth="119.0" styleClass="studyM-button" stylesheets="@../../../java/Values/style.css" text="Study music" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font>

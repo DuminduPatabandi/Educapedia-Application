@@ -215,5 +215,16 @@
             -fx-scale-x: 1.1 ;
 }
 
+.img {
+    -fx-background-color: rgba(0,0,0,0);
+
+}
+
+.img:hover {
+        -fx-background-color: rgba(0,0,0,0);
+            -fx-scale-y: 1.1 ;
+            -fx-scale-x: 1.1 ;
+}
+
 
 

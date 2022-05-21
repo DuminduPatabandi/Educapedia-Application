@@ -134,6 +134,29 @@ public class MenuController {
         }
     }
 
+
+//-----------------------------------------------------------Go to Study music page.-----------------------------------------------------------------------
+
+    public void setMusicButtonOnAction(ActionEvent event) {
+        try {
+
+            Parent root = FXMLLoader.load(getClass().getResource("music.fxml"));
+            Stage registerStage = new Stage();
+            registerStage.initStyle(StageStyle.TRANSPARENT);
+            Scene scene = new Scene(root);
+            scene.setFill(Color.TRANSPARENT);
+            registerStage.setScene(scene);
+            registerStage.show();
+
+            Stage stage = (Stage) StudyMusicButton.getScene().getWindow(); // Closing previous window.
+            stage.close();
+
+        }catch (Exception e) {
+            e.printStackTrace();
+            e.getCause();
+        }
+    }
+
 //----------------------------------------------Go to User Info tab without closing the Menu tab.-------------------------------------------------------------
 
     public void setAccountinfoButtonOnAction(ActionEvent event) {

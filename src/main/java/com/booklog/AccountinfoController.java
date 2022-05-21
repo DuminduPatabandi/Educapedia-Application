@@ -178,7 +178,7 @@ public class AccountinfoController {
 
 //----------------------------------------------------------Display username.--------------------------------------------------------------------------
 
-    public void userInfoDisplay()  {
+    public void userInfoDisplay() {
         DatabaseConnection connectNow = new DatabaseConnection();
         Connection connectDB = connectNow.getConnection();
 
