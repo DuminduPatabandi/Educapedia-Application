@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.media.Media;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -86,7 +87,7 @@ public class editController {
         }
     }
 
-//----------------------------------------------------------Edit username.--------------------------------------------------------------------------
+//------------------------------------------------------------Edit username.--------------------------------------------------------------------------
 
     public void changeNameButton() {
         DatabaseConnection connectNow = new DatabaseConnection();
@@ -132,7 +133,7 @@ public class editController {
         }
     }
 
-//-------------------------------------------------------Edit secret key.------------------------------------------------------------------------
+//----------------------------------------------------------Edit secret key.------------------------------------------------------------------------
 
     public void changePwButton() {
             DatabaseConnection connectNow = new DatabaseConnection();
@@ -178,7 +179,7 @@ public class editController {
             }
         }
 
-//------------------------------------------------------Edit contact number.------------------------------------------------------------------------
+//----------------------------------------------------------Edit contact number.------------------------------------------------------------------------
 
     public void changeTelButton() {
         DatabaseConnection connectNow = new DatabaseConnection();
