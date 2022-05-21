@@ -49,7 +49,6 @@
       </TextField>
       <Button fx:id="RegisterButton" layoutX="197.0" layoutY="504.0" mnemonicParsing="false" onAction="#setRegisterButtonAction" opacity="0.81" prefHeight="26.0" prefWidth="130.0" styleClass="register-button" stylesheets="@../../../java/Values/style.css" text="Register" textFill="WHITE" />
       <Button fx:id="cancelButton" layoutX="607.0" layoutY="155.0" mnemonicParsing="false" onAction="#setCancelButtonAction" opacity="0.5" prefHeight="26.0" prefWidth="28.0" styleClass="closing-button" stylesheets="@../../../java/Values/style.css" text="X" textFill="WHITE" />
-      <Button fx:id="StudyMusicButton" layoutX="607.0" layoutY="447.0" mnemonicParsing="false" onAction="#setMusicButtonOnAction" opacity="0.81" prefHeight="26.0" prefWidth="94.0" styleClass="music-button" stylesheets="@../../../java/Values/style.css" text="Study Music" textFill="#3e3e3e" />
       <Label fx:id="messageDisplay" alignment="CENTER" layoutX="173.0" layoutY="460.0" prefHeight="18.0" prefWidth="178.0" textFill="#dc4f4f">
          <font>
             <Font name="Bell MT" size="12.0" />
