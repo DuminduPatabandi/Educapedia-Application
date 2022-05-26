@@ -1,0 +1,16 @@
+EDUCAPEDIA
+
++ Educapedia is a Application which id develpod for University of Kelaniya,
+ Faculty of Sience.
+
++ Undergraduates will be able to find reference Books, Pfs
+ all around the world to help their every needs of academic activities.
+
++ We commited to develop it as much as userfriendy with a beautiful interface
+using JavaFx and with scenebuilder.
+
++ Thanks for using our app.
+
++ We are seeking to devwlop a web application soon.
+
++ We are Team 08.
