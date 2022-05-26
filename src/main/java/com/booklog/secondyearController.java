@@ -77,7 +77,7 @@ public class secondyearController {
     }
     public void setCoscButtonOnAction(ActionEvent event) {
         Runtime rt = Runtime.getRuntime();
-        String url = "https://www.google.com";
+        String url = "https://drive.google.com/file/d/1CKh4NGbNkPlxnqz_eLHFEMeLGsfoUTa9/view?usp=sharing";
         try {
             rt.exec("rundll32 url.dll,FileProtocolHandler " + url);
         }
