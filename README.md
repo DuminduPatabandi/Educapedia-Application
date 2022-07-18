@@ -38,6 +38,6 @@ using JavaFx and with scenebuilder.
 
 + Thanks for using our app.
 
-+ We are seeking to devwlop a web application soon.
++ We are seeking to dewelop a web application soon.
 
 + We are Team 08.
