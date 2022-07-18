@@ -23,3 +23,21 @@ UPDATING ACCOUNT DETAILS
 SUBJECTS WINDOW
 
 ![Screenshot (109)](https://user-images.githubusercontent.com/74417715/179601522-5eaf2c15-486e-4a8c-a726-ed3a8a692aab.png)
+
+
+EDUCAPEDIA
+
++ Educapedia is a Application which id develpod for University of Kelaniya,
+ Faculty of Sience.
+
++ Undergraduates will be able to find reference Books, Pfs
+ all around the world to help their every needs of academic activities.
+
++ We commited to develop it as much as userfriendy with a beautiful interface
+using JavaFx and with scenebuilder.
+
++ Thanks for using our app.
+
++ We are seeking to devwlop a web application soon.
+
++ We are Team 08.
